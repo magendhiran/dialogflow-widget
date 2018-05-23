@@ -147,9 +147,9 @@ export default {
     name: 'landing',
     data: function(){
         return {
-            token: '9d686a47b1de48bab431e94750d1cd87',
+            token: 'c18256670c04495cb3f0079d891ef47f',
             mute: false,
-            bottom: false
+            bottom: true
         }
     },
     methods: {
