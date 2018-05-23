@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --watch-poll --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "start": "npm run dev"
+    "live": "cross-env NODE_ENV=production webpack-dev-server --watch-poll",
+    "start": "npm run live"
   },
   "dependencies": {
     "api-ai-javascript": "^2.0.0-beta.21",
