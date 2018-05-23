@@ -49,7 +49,7 @@
 &lt;iframe
     width="350"
     height="430"
-    src="https://mish.io/dialogflow-widget/#/{{token}}?mute={{mute}}&bottom={{bottom}}" /&gt;</pre>
+    src="https://dialogflow-widget.herokuapp.com/#/{{token}}?mute={{mute}}&bottom={{bottom}}" /&gt;</pre>
 
                     <p class="mdc-text-field-helptext" aria-hidden="true">
                         Your token will not be saved anywhere. You can get it in <a class="flow" href="https://console.dialogflow.com">Dialogflow Dashboard</a>
@@ -67,7 +67,7 @@
                     <h1 class="dftext preview">Preview</h1>
                     <iframe
                         class="widgetframe"
-                        :src="'https://mish.io/dialogflow-widget/#/' + token + '?mute=' + mute + '&bottom=' + bottom" /> <!-- Replace my token with yours after #/ -->
+                        :src="'https://dialogflow-widget.herokuapp.com/#/' + token + '?mute=' + mute + '&bottom=' + bottom" /> <!-- Replace my token with yours after #/ -->
                 </div>
             </div>
         </div>

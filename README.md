@@ -29,7 +29,7 @@ Grab your token in [Dialogflow Console](https://console.dialogflow.com)
 <iframe
     width="350"
     height="430"
-    src="https://mish.io/dialogflow-widget/#/YOUR-TOKEN-HERE" />
+    src="https://dialogflow-widget.herokuapp.com/#/YOUR-TOKEN-HERE" />
 ```
 
 [DEMO](https://codepen.io/mishushakov/pen/NwJRZY?editors=1000)

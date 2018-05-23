@@ -144,7 +144,7 @@
         </table>
 
         <br>
-        <p class="copyright" :class="{'marged': bottom}" v-if="answers.length > 0" id="bottom">Proudly powered by <a href="https://mish.io">Ushakov</a> & <a href="https://dialogflow.com">Dialogflow</a></p>
+        <p class="copyright" :class="{'marged': bottom}" v-if="answers.length > 0" id="bottom">Proudly powered by <a href="https://dialogflow-widget.herokuapp.com">Magendhiran</a> & <a href="https://dialogflow.com">Dialogflow</a></p>
 
     </main>
 </section>
