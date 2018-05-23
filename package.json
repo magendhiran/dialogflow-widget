@@ -7,10 +7,12 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --watch-poll --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "live": "cross-env NODE_ENV=production webpack-dev-server --watch-poll",
-    "start": "npm run live"
+    "start": "node server.js"
   },
   "dependencies": {
     "api-ai-javascript": "^2.0.0-beta.21",
+    "express": "^4.16.3",
+    "serve-static": "^1.13.2",
     "vue-carousel": "^0.6.5"
   },
   "devDependencies": {
