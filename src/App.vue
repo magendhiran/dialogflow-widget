@@ -144,7 +144,7 @@
         </table>
 
         <br>
-        <!-- <p class="copyright" :class="{'marged': bottom}" v-if="answers.length > 0" id="bottom">Proudly powered by <a href="https://dialogflow-widget.herokuapp.com">Magendhiran</a> & <a href="https://dialogflow.com">Dialogflow</a></p> -->
+        <p class="copyright" :class="{'marged': bottom}" v-if="answers.length > 0" id="bottom"><a href="https://dialogflow-widget.herokuapp.com"></a> & <a href="https://dialogflow.com"></a></p>
 
     </main>
 </section>
@@ -287,7 +287,7 @@ td
     margin-left: 5px
 
 .mdc-card__media-item
-	height: auto
+    height: auto
     display: block
     margin-left: auto
     margin-right: auto
