@@ -144,7 +144,7 @@
         </table>
 
         <br>
-        <p class="copyright" :class="{'marged': bottom}" v-if="answers.length > 0" id="bottom"><a href="https://dialogflow-widget.herokuapp.com"></a> & <a href="https://dialogflow.com"></a></p>
+        <p class="copyright" :class="{'marged': bottom}" v-if="answers.length > 0" id="bottom"><a href="https://dialogflow-widget.herokuapp.com"></a>  <a href="https://dialogflow.com"></a></p>
 
     </main>
 </section>
