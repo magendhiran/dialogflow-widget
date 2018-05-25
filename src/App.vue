@@ -293,9 +293,9 @@ td
     margin-right: auto
 
 .chips
-    margin-left: -10px
     display: inline-block
-
+    width: 100%
+    
 .suggestion
     margin-top: 10px
     float: left
