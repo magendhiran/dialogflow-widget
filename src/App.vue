@@ -22,7 +22,7 @@
         <!-- Display Welcome Message -->
         <div v-if="answers.length == 0 && online == true">
             <h1 class="title mdc-typography--headline">
-                <div class="material-icons up">arrow_upward</div>
+                <!-- <div class="material-icons up">arrow_upward</div> -->
                 <br>
                 <br>
                     Hello, ask something to get started
@@ -144,7 +144,7 @@
         </table>
 
         <br>
-        <p class="copyright" :class="{'marged': bottom}" v-if="answers.length > 0" id="bottom">Proudly powered by <a href="https://dialogflow-widget.herokuapp.com">Magendhiran</a> & <a href="https://dialogflow.com">Dialogflow</a></p>
+        <!-- <p class="copyright" :class="{'marged': bottom}" v-if="answers.length > 0" id="bottom">Proudly powered by <a href="https://dialogflow-widget.herokuapp.com">Magendhiran</a> & <a href="https://dialogflow.com">Dialogflow</a></p> -->
 
     </main>
 </section>
@@ -251,6 +251,8 @@ td
     max-width: 300px
     margin-bottom: 5px
     animation: msg .45s ease-in-out
+    display: inline-block
+    margin-top: 10px
 
 .slide
     margin: 5px
@@ -285,12 +287,14 @@ td
     margin-left: 5px
 
 .mdc-card__media-item
-    height: auto
-    width: 100%
-    margin-top: -5px
+	height: auto
+    display: block
+    margin-left: auto
+    margin-right: auto
 
 .chips
     margin-left: -10px
+    display: inline-block
 
 .suggestion
     margin-top: 10px
